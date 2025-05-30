@@ -1,4 +1,5 @@
 # Job Portal App with MERN Stack
+  ## RozgaarX – Gateway to Infinite Opportunities
 
 A comprehensive job portal application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. This application allows users to browse job listings, apply for jobs, and manage their applications seamlessly.
 
@@ -31,17 +32,20 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo:
    ```sh
-   git clone https://github.com/exclusiveabhi/react-job-portal.git
+   git clone https://github.com/KalashKashyapp/Job_Portal_ReactJs_NodeJs.git
    ```
 2. Install NPM packages:
 
    ```sh
-   cd react-job-portal
+   cd Job_Portal_ReactJs_NodeJs
+
    cd backend
    npm install
+
    cd..
    cd frontend
    npm install
+
    ```
 
 3. ## If you don't want to change the`.env` credentials skip step 4 and move to step 5.
@@ -64,16 +68,16 @@ To get a local copy up and running follow these simple steps.
 
    Replace each value with your specific configuration details.
 
-5. Run the application backend (make sure you are in `/backend` directory) :
+5. ## Run the application backend :
 
-   ```sh
+   cd backend
    node server.js
-   ```
 
-6. Run the application frontend (make sure you are in `/frontend` directory) :
-   ```sh
+6. ## Run the application frontend :
+
+   cd frontend
    npm run dev
-   ```
+
 7. Open your browser and navigate to `http://localhost:5173` to view the app.
 
 ## Contributing
