@@ -15,7 +15,7 @@ config({ path: "./config/config.env" });
 
 app.use(
   cors({
-    origin: '*',
+    origin: 'https://job-portal-react-js-node-js-eg38.vercel.app/login',
     method: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
